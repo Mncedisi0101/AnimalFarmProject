@@ -136,7 +136,7 @@ public class AnimalFarm {
         System.out.println("Type: " + animal.getAnimalType());
         System.out.println("Name: " + animal.getName());
         System.out.println("ID: " + animal.getId());
-        System.out.println("Food Cost per kg: $" + animal.getFoodCostPerKg());
+        System.out.println("Food Cost per kg: R" + animal.getFoodCostPerKg());
         System.out.printf("Monthly Food Estimate: %.2fkg%n", animal.calculateMonthlyFood());
         System.out.printf("Monthly Cost Estimate: R%.2f%n", animal.calculateMonthlyCost());
         
